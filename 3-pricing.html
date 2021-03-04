@@ -1,204 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="images/favicon.png" />
-  <title>SmileSchool</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet" />
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
+<html lang='en'>
+    <head>
+        <title>SmileSchool - homepage</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+        <link rel='icon' type='image/png' href='./images/favicon.ico'>
+        <!-- External libraries -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- CSS Styling -->
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <main class="pricing-main">
 
-<body>
-  <div class="header__image_pr">
-    <header class="container d-flex justify-content-between pt-4 flex-sm-row flex-column">
-      <h1
-        class="mt-0 d-flex col-xl-9 col-md-7 col-sm-6 col-12 align-items-center justify-content-center justify-content-sm-start flex-sm-row flex-column">
-        <a href="URL" class="logo-smile mr-3">Simile</a>
-        <a href="URL" class="logo mt-sm-0 mt-3">SmileSchool</a>
-      </h1>
-      <span class="iconMenu float-left position-absolute d-sm-none" data-toggle="collapse" href="#collapseExample"
-        role="button" aria-expanded="false" aria-controls="collapseExample"></span>
-      <nav class="nav text-white col-xl-3 col-sm-6 col-12 col-md-5 d-sm-flex collapse px-0" id="collapseExample">
-        <ul class="d-flex justify-content-sm-between align-items-center px-0 w-100 flex-column flex-sm-row">
-          <li class="nav-link font-weight-bold"><a>COURSES</a></li>
-          <li class="nav-link font-weight-bold color-pink"><a class="border-bottom">PRICING</a></li>
-          <li class="nav-link font-weight-bold"><a>LOGIN</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="text-center position-absolute header__content w-100">
-      <div class="d-flex m-auto justify-content-center align-items-center">
-        <p class="h2Page text-white mb-0">What is</p>
-        <img src="images/smile_off.png" alt="logo smile" class="header__logo ml-3">
-        <p class="font-smileschool text-white ml-3 mb-0">SmileSchool</p>
-        <p class="h2Page text-white ml-2 mb-0">?</p>
-      </div>
-      <h2 class="text-white font-weight-bold header_title px-0 pt-5 mb-0">Go pro!</h2>
-      <div class="container">
-        <div class="d-flex justify-content-end m-auto pt-5">
-          <div class="col-sm-4 col-6 pt-4">
-            <button class="btn btn-primary border-0 rounded mb-3 py-2 px-3 back-pink-color shadow-lg">BUY 3
-              MONTHS</button>
-            <h3 class="header__table_price text-white font-weight-bold">$3.60</h3>
-            <p class="text-white opacity">$1.20/month</p>
-          </div>
-          <div class="col-sm-4 col-6 pt-4">
-            <button class="btn btn-primary border-0 rounded mb-3 py-2 px-4 back-pink-color shadow-lg">BUY 1
-              YEAR</button>
-            <h3 class="header__table_price text-white font-weight-bold">$12.99</h3>
-            <p class="text-white opacity">$1.20/month</p>
-          </div>
-        </div>
-        <div class="d-flex col-12 m-auto">
-          <table class="table text-white">
-            <tbody>
-              <tr class="row m-0">
-                <th class="col-4 text-left" scope="row">Unlimitted access to all tutorials</th>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-              </tr>
-              <tr class="row m-0">
-                <th class="col-4 text-left" scope="row">Access SmileSchool private forum</th>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-              </tr>
-              <tr class="row m-0">
-                <th class="col-4 text-left" scope="row">Access Smiles contests & Smiles Analysis</th>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-              </tr>
-              <tr class="row m-0">
-                <th class="col-4 text-left" scope="row">Get a free toothbrush</th>
-                <td class="col-4 text-center"></td>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-              </tr>
-              <tr class="row m-0">
-                <th class="col-4 text-left" scope="row">
-                  <div class="row m-0 d-flex flex-column">
-                    <img src="./images/signal.png" alt="signal.png" class="signal_img" width="82" height="35">
-                    <p>
-                      Exclusive discount on all Signal products
-                    </p>
-                  </div>
-                </th>
-                <td class="col-4 text-center"></td>
-                <td class="col-4 text-center"><span class="iconCheck"></span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <main>
-    <section class="carousel__section  py-5 text-white back-pink-color">
-      <div id="cs_1" class="carousel slide my-5" data-ride="carouse">
-        <a class="carousel-control-prev d-flex align-items-start align-items-sm-center pt-5 pt-sm-0" href="#cs_1"
-          role="button" data-slide="prev">
-          <img class="p-arrow-icon" src="./images/arrow_white_left.png" aria-hidden="true">
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next d-flex align-items-start align-items-sm-center pt-5 pt-sm-0" href="#cs_1"
-          role="button" data-slide="next">
-          <img class="n-arrow-icon" src="./images/arrow_white_right.png" aria-hidden="true">
-          <span class="sr-only">Next</span>
-        </a>
-        <div class="carousel-inner">
-          <div class="carousel-item active px-5">
-            <div class="row d-flex justify-content-center align-items-center">
-              <div class="col-12 col-sm-4 d-flex justify-content-sm-end justify-content-center ">
-                <img src="./images/profile_5.jpg" class="rounded-circle carousel-img" alt="...">
-              </div>
-              <div class="col pr-5 mr-4 pt-5 pt-sm-0">
-                <p class="font-italic"> « Those tutorials are concise and go straight to the point. I can’t think of a
-                  better place to learn smiling. And it’s so fun!</p>
-                <h6 class="font-weight-bold m-0 mb-1">Person Name</h6>
-                <p class="font-italic m-0">weather presenter</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item px-5">
-            <div class="row d-flex justify-content-center align-items-center">
-              <div class="col-12 col-sm-4 d-flex justify-content-sm-end justify-content-center ">
-                <img src="./images/profile_5.jpg" class="rounded-circle carousel-img" alt="...">
-              </div>
-              <div class="col pr-5 mr-4 pt-5 pt-sm-0">
-                <p class="font-italic"> « Those tutorials are concise and go straight to the point. I can’t think of a
-                  better place to learn smiling. And it’s so fun!</p>
-                <h6 class="font-weight-bold m-0 mb-1">Person Name</h6>
-                <p class="font-italic m-0">weather presenter</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="faq">
-      <div class="container">
-        <h1 class="display-4 text-center py-5">F.A.Q.</h1>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 p-5">
-            <p class="mb-4 font-weight-bold">How does this work?</p>
-            <p class="text-secondary">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
-              placeat illo ea suscipit molestiae, numquam perferendis aperiam
-              libero voluptates adipisci, temporibus exercitationem odit
-              expedita assumenda obcaecati? Temporibus minima ipsum eveniet
-              sapiente cupiditate exercitationem, labore in provident aspernatur
-              suscipit quidem a.
-            </p>
-          </div>
-          <div class="col-sm-12 col-md-6 p-5">
-            <p class="mb-4 font-weight-bold">How does this work?</p>
-            <p class="text-secondary">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
-              placeat illo ea suscipit molestiae, numquam perferendis aperiam
-              libero voluptates adipisci, temporibus exercitationem odit
-              expedita assumenda obcaecati? Temporibus minima ipsum eveniet
-              sapiente cupiditate exercitationem, labore in provident aspernatur
-              suscipit quidem a.
-            </p>
-          </div>
-          <div class="col-sm-12 col-md-6 p-5">
-            <p class="mb-4 font-weight-bold">How does this work?</p>
-            <p class="text-secondary">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
-              placeat illo ea suscipit molestiae, numquam perferendis aperiam
-              libero voluptates adipisci, temporibus exercitationem odit
-              expedita assumenda obcaecati? Temporibus minima ipsum eveniet
-              sapiente cupiditate exercitationem, labore in provident aspernatur
-              suscipit quidem a.
-            </p>
-          </div>
-          <div class="col-sm-12 col-md-6 p-5">
-            <p class="mb-4 font-weight-bold">How does this work?</p>
-            <p class="text-secondary">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
-              placeat illo ea suscipit molestiae, numquam perferendis aperiam
-              libero voluptates adipisci, temporibus exercitationem odit
-              expedita assumenda obcaecati? Temporibus minima ipsum eveniet
-              sapiente cupiditate exercitationem, labore in provident aspernatur
-              suscipit quidem a.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
+            <!-- HERO SECTION -->
+            <section class="hero-section">
+                <header class="header px-5 py-5">
+                    <label for="small-nav-handler" class="nav-btn"></label>
+                    <input type="checkbox" id="small-nav-handler">
+                    <div class="logo-container">
+                        <img src="./images/smile_off.png" alt="smile image">
+                        <img src="./images/logo.png" alt="holberton smiling school logo">
+                    </div>
+                    <lu class="nav-list">
+                        <li><a href="./courses.html">COURSES</a></li>
+                        <li><a class="active" href="./pricing.html">PRICING</a></li>
+                        <li><a href="./login.html">LOGIN</a></li>
+                    </lu>
+                </header>
+                <h2 class="text-logo text-center row justify-content-center align-items-center px-4">
+                    What is
+                    <div class="px-1">
+                        <img class="mx-1" src="./images/smile_off.png" alt="smile image" width="38px" height="25px">
+                        <img class="mx-1 mt-2" src="./images/logo.png" alt="holberton smiling school logo" width="150px" height="45px">
+                    </div>
+                    ?
+                </h2>
+                <h1 class="display-4 font-weight-bold text-center py-5">
+                    Go pro!
+                </h1>
+                <!-- PRICING TABLE -->
+                <div class="container-md py-5">
+
+                    <div class="d-flex d-sm-none mb-5 justify-content-center">
+                        <div class="mx-4">
+                            <button class="btn rounded-pill shadow text-light mx-auto my-3 font-weight-bold table-btn">BUY 3 MONTHS</button>
+                            <div class="th-title text-center font-weight-bold">$3.60</div>
+                            <div class="table-subtitle text-center opacity-3">$1.20/month</div>
+                        </div>
+                        <div class="mx-4">
+                            <button class="btn rounded-pill shadow text-light mx-auto my-3 font-weight-bold table-btn">BUY 1 YEAR</button>
+                            <div class="th-title text-center font-weight-bold">$12.99</div>
+                            <div class="table-subtitle text-center opacity-3">$1.08/month</div>
+                        </div>
+                    </div>
+
+                    <table class="table table-borderless">
+                        <thead>
+                          <tr class="py-3">
+                            <th scope="col" class="first-th"></th>
+                            <th scope="col">
+                                <button class="btn rounded-pill shadow text-light mx-auto my-3 font-weight-bold table-btn">BUY 3 MONTHS</button>
+                                <div class="th-title text-center font-weight-bold">$3.60</div>
+                                <div class="table-subtitle text-center opacity-3">$1.20/month</div>
+                            </th>
+                            <th scope="col">
+                                <button class="btn rounded-pill shadow text-light mx-auto my-3 font-weight-bold table-btn">BUY 1 YEAR</button>
+                                <div class="th-title text-center font-weight-bold">$12.99</div>
+                                <div class="table-subtitle text-center opacity-3">$1.08/month</div>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-center">
+                          <tr class="my-2">
+                            <th class="tr-title font-weight-normal text-left pl-0" scope="row"></th>
+                            <td>3 MONTHS</td>
+                            <td>1 YEAR</td>
+                          </tr>
+                          <tr class="my-2">
+                            <th class="tr-title font-weight-normal text-left pl-0" scope="row">Unlimitted access to all tutorials</th>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                          </tr>
+                          <tr class="my-2 bordered-table-row">
+                            <th class="tr-title font-weight-normal text-left pl-0" scope="row">Access SmileSchool private forum</th>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                          </tr>
+                          <tr class="my-2">
+                            <th class="tr-title font-weight-normal text-left pl-0" scope="row">Access Smiles contests & Smiles Analysis</th>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                          </tr>
+                          <tr class="my-2 bordered-table-row">
+                            <th class="tr-title font-weight-normal text-left pl-0" scope="row">Get a free  toothbrush</th>
+                            <td></td>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                          </tr>
+                          <tr class="my-2">
+                            <th class="tr-title font-weight-normal text-left pl-0" scope="row">
+                                <img class="pl-0 mb-2" src="./images/signal.png" alt="signal logo" height="35px" width="88px"> <br> Exclusive discount on all Signal products</th>
+                            <td></td>
+                            <td><i class="holberton_school-icon-check"></i></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- PRICING TABLE -->
+            </section>
+            <!-- HERO SECTION -->
+
+            <!-- QUOTES SECTION -->
+            <section class="quotes-section">
+                <div id="quotesCarouselControls" class="carousel slide container-md" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel-item-content active">
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <img class="rounded-circle" src="./images/profile_5.jpg" class="d-block w-100" alt="random person image">
+                                </div>
+                                <div class="col-sm-8 ml-3 d-flex flex-column">
+                                    <div>&lt;&lt; « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun! &gt;&gt;</div>
+                                    <div class="font-weight-bold mt-3">Person Name</div>
+                                    <div>weather presenter</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item-content">
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <img class="rounded-circle" src="./images/profile_5.jpg" class="d-block w-100" alt="random person image">
+                                </div>
+                                <div class="col-sm-8 ml-3 d-flex flex-column">
+                                    <div>&lt;&lt; « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun! &gt;&gt;</div>
+                                    <div class="font-weight-bold mt-3">Person Name</div>
+                                    <div>weather presenter</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#quotesCarouselControls" role="button" data-slide="prev">
+                        <span class="holberton_school-icon-arrow_4 display-1" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#quotesCarouselControls" role="button" data-slide="next">
+                        <span class="holberton_school-icon-arrow_3 display-1" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+            <!-- QUOTES SECTION -->
+
+            <!-- FAQ SECTION -->
+            <section class="faq-section container-md px-3">
+                <div class="mx-auto">
+                    <h1 class="text-center font-weight-light">
+                        F.A.Q.
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="one-faq col-xs-12 col-sm-5 mx-auto">
+                        <h2 class="font-weight-bold">
+                            How does this work?
+                        </h2>
+                        <div class="faq-answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+                    <div class="one-faq col-xs-12 col-sm-5 mx-auto">
+                        <h2 class="font-weight-bold">
+                            How does this work?
+                        </h2>
+                        <div class="faq-answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+                    <div class="one-faq col-xs-12 col-sm-5 mx-auto">
+                        <h2 class="font-weight-bold">
+                            How does this work?
+                        </h2>
+                        <div class="faq-answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+                    <div class="one-faq col-xs-12 col-sm-5 mx-auto">
+                        <h2 class="font-weight-bold">
+                            How does this work?
+                        </h2>
+                        <div class="faq-answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FAQ SECTION -->
+        </main>
+    </body>
 </html>
